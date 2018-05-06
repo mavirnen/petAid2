@@ -10,7 +10,7 @@
 		<!-- Importing navbar stylesheet -->
 		<link rel="stylesheet" type="text/css" href="./css/navbar.css">
 		<!-- Importing index stylesheet -->
-		<link rel="stylesheet" type="text/css" href="./css/index.css">
+		<link rel="stylesheet" type="text/css" href="./css/login.css">
 	</head>
 	<body>
 		<ul class="topNavigationBar">
@@ -31,7 +31,7 @@
 				</a>
 			</li>
 			<li>
-				<a class="active" href="./calendar.html">
+				<a href="./calendar.html">
 					<div class="topNavbarDiv"><img class="navbarIcons" src="./images/navbar/home.png" alt=" "></img>Calendar</div>
 				</a>
 			</li>
@@ -51,7 +51,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="./login.html">
+				<a class="active" href="./login.html">
 					<div class="topNavbarDiv"><img class="navbarIcons" src="./images/navbar/home.png" alt=" ">Login</img></div>
 				</a>
 			</li>
@@ -61,7 +61,61 @@
 <!-- 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 -->
 
 
-<!-- Place Content Here -->
+		<div class="row">
+		  <div class="column"></div>
+		  <div class="column columnCentre">
+				<h1>
+					Login
+				</h1>
+				<p>
+					"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
+				</p>
+				<form action="/action_page.php">
+					<fieldset class="firstField">
+						<legend>Personal information:</legend>
+						<p><br></p>
+						<p><label>Username: </label><input type="text" name="username" value=""></p>
+						<p><label>Password: </label><input type="text" name="password" value=""></p>
+						<p><label>Reenter Password: </label><input type="text" name="reenterPassword" value=""></p>
+						<p><br></p>
+						<p><label>First Name: </label><input type="text" name="firstname" value=""></p>
+						<p><label>Last Name: </label><input type="text" name="lastname" value=""></p>
+						<p><label>Birthday: </label><input type="date" name="birthday" value=""></p>
+						<p><br></p>
+						<p>
+							<label>Address Line 1: </label><input type="text" name="addressLine1" value="">
+							<label>Address Line 2: </label><input type="text" name="addressLine2" value="">
+						</p>
+						<p>
+							<label>City: </label><input type="text" name="city" value="">
+							<label>Postcode: </label><input type="text" name="postcode" value="">
+							<label>State: </label>
+							<select name="state">
+								<option value="VIC">VIC</option>
+								<option value="NSW">NSW</option>
+								<option value="QLD">QLD</option>
+								<option value="ACT">ACT</option>
+								<option value="NT">NT</option>
+								<option value="WA">WA</option>
+								<option value="SA">SA</option>
+								<option value="TAS">TAS</option>
+							</select>
+						</p>
+						<p><br></p>
+						<p>
+							<label>Email: </label><input type="text" name="email" value="">
+							<label>Marketing: </label><input type="checkbox" name="marketing" value="">
+						</p>
+						<p><label>Mobile: </label><input type="number" name="mobile" value=""></p>
+						<p><label>Bio: </label><textarea name="bio"></textarea></p>
+						<p><br></p>
+						<p><br></p>
+						<input type="submit" value="Submit">
+					</fieldset>
+				</form>
+		  </div>
+		  <div class="column"></div>
+		</div>
 
 
 <!-- 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 -->

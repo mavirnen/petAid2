@@ -1,0 +1,113 @@
+.heroContainer{
+	/* Position is relative to parent */
+	position: relative;
+	/* How text is aligned within the element*/
+	text-align: left;
+	/* Colour of all texts */
+	color: #e4e0d5;
+	width: 100%;
+}
+
+.heroHeading{
+	/* Position is absolute to parent */
+	position: absolute;
+	top: 0%;
+	left: 1%;
+
+	/* Text cosmetics */
+	font-size: 8vw;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.heroQuote{
+	/* Position is absolute to parent */
+	position: absolute;
+	top: 40%;
+	left: 70%;
+
+	/* Text cosmetics */
+	font-size: 2vw;
+	font-style: italic;
+}
+
+.heroImage{
+	width: 100%;
+	display: flex;
+}
+
+.featureList{
+	height: 100%;
+	width: 100%;
+
+	/* Removing default list margin */
+	margin: 0;
+	padding:0;
+
+	/* Display list as a table */
+	display:table;
+
+	/* Borders of cells in table will be zero */
+	border-collapse:collapse;
+
+	/* Evenly spaced cells (Remove for propertional size)*/
+	table-layout: fixed;
+	list-style: none;
+}
+
+.featureList li{
+	/* Create a thin border between blocks */
+	/* width: 100%; */
+	border: 40px solid #DEDCCE;
+	display: table-cell;
+	height: 100%;
+}
+
+.featureWrapper{
+	display: flex;
+	position:relative;
+}
+
+.featureList a{
+
+	height: 19vw;
+
+	/* Background colour of blocks */
+	background-color:#D3CBA6;
+
+	/* Font cosmetics */
+	color: #905750;
+	text-decoration: none;
+	text-align: center;
+	display:block;
+}
+
+/* Change the color of links on hover */
+.featureList a:hover {
+	/* Cell colour */
+	background-color: #905750;
+
+	/* Text Colour */
+	color: #D3CBA6;
+}
+
+.featureDiv{
+	position: relative;
+	top: 50%;
+	transform: translate(0, -50%);
+	vertical-align: middle;
+
+	font-size: 3vw;
+	font-family: Delicious-Roman;
+	font-weight: bold;
+}
+
+.featureImages{
+	/* Scale to set 512x512 icons to */
+	width: 15%;
+	/* Aligning image within div */
+	vertical-align:middle;
+	/* height: 100%; */
+	/* Separate image and text divs */
+	padding: 0 4vw 0 0;
+}

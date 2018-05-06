@@ -1,0 +1,61 @@
+.column {
+    float: left;
+    width: 20%;
+		height: 45vw;
+		padding: 10px;
+    box-sizing: border-box;
+
+		background-color:#DEDCCE;
+}
+
+.columnCentre {
+	text-align:center;
+  width: 60%;
+	background-color:#f0f0ee;
+}
+
+.columnCentre h1{
+	font-family: Delicious-Roman;
+	font-weight: bold;
+	font-style: italic;
+}
+
+/* Clear floats after the columns */
+.row:after {
+	  box-sizing: border-box;
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.firstField{
+	border: 4px solid #4D3F3E;
+	border-radius: 12px;
+	background-color: #DEDCCE;
+	display: table;
+}
+
+.firstField p{
+	text-align: left;
+	display: table-row;
+}
+
+.firstField label {
+	display: table-cell;
+	text-align: right;
+}
+
+.firstField input {
+	display: table-cell;
+}
+
+.firstField select {
+	display: table-cell;
+}
+
+.firstField textArea {
+	vertical-align:middle;
+	display: table-cell;
+	rows:3;
+	columns:20;
+}

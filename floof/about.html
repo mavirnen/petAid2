@@ -1,48 +1,106 @@
-<!doctype html> <!--Important to indicate HTML type to browsers-->
+<!DOCTYPE html>
 <html>
 	<head>
+		<!-- Heading -->
 		<title>Floof Pet Aid</title>
-
-		<!--Import Google Icon Font-->
-		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-		<!--Import materialize.css-->
-		<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-
-		<!--Import style.css-->
-		<link type="text/css" rel="stylesheet" href="css/style.css"/>
-
-		<!--Let browser know website is optimized for mobile-->
-		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<!-- Importing local fonts stylesheet -->
+		<link rel="stylesheet" type="text/css" href="./fonts/fonts.css">
+		<!-- Importing css stylesheet -->
+		<link rel="stylesheet" type="text/css" href="./css/style.css">
+		<!-- Importing navbar stylesheet -->
+		<link rel="stylesheet" type="text/css" href="./css/navbar.css">
+		<!-- Importing index stylesheet -->
+		<link rel="stylesheet" type="text/css" href="./css/index.css">
 	</head>
-
 	<body>
+		<ul class="topNavigationBar">
+			<!--"active" sets the currently selected tab-->
+			<li>
+				<a href="./index.html">
+					<div class="topNavbarDiv"><img class="navbarIcons" src="./images/navbar/home.png" alt=" "></img>Home</div>
+				</a>
+			</li>
+			<li>
+				<a href="./search.html">
+					<div class="topNavbarDiv"><img class="navbarIcons" src="./images/navbar/home.png" alt=" "></img>Search</div>
+				</a>
+			</li>
+			<li>
+				<a href="./forums.html">
+					<div class="topNavbarDiv"><img class="navbarIcons" src="./images/navbar/home.png" alt=" "></img>Forums</div>
+				</a>
+			</li>
+			<li>
+				<a href="./calendar.html">
+					<div class="topNavbarDiv"><img class="navbarIcons" src="./images/navbar/home.png" alt=" "></img>Calendar</div>
+				</a>
+			</li>
+			<li>
+				<a href="./profile.html">
+					<div class="topNavbarDiv"><img class="navbarIcons" src="./images/navbar/home.png" alt=" "></img>Profile</div>
+				</a>
+			</li>
+			<li>
+				<a class="active" href="./about.html">
+					<div class="topNavbarDiv"><img class="navbarIcons" src="./images/navbar/home.png" alt=" "></img>About</div>
+				</a>
+			</li>
+			<li>
+				<a href="./contact.html">
+					<div class="topNavbarDiv"><img class="navbarIcons" src="./images/navbar/home.png" alt=" ">Contact</img></div>
+				</a>
+			</li>
+			<li>
+				<a href="./login.html">
+					<div class="topNavbarDiv"><img class="navbarIcons" src="./images/navbar/home.png" alt=" ">Login</img></div>
+				</a>
+			</li>
+		</ul>
+		<div class="topNavbarBase"></div>
 
-		<!--Top Navigation Bar-->
-		<nav class="topnav">
-		  <a href="./index.html">Home</a> <!--"active" sets the currently selected tab-->
-		  <a href="./search.html">Search</a>
-		  <a href="./forums.html">Forums</a>
-		  <a href="./calendar.html">Calendar</a>
-			<a href="./profile.html">Profile</a>
-			<a class="active" href="./about.html">About</a>
-			<a href="./contact.html">Contact</a>
-		</nav>
+<!-- 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 -->
 
-	<h1>About</h1>
 
-		<!--Bottom Navigation Bar-->
-		<nav class="bottomnav">
-		  <a href="./connect.html">Connect</a>
-			<a href="./advertise.html">Advertise</a>
-			<a href="./terms_of_use.html">Terms of Use</a>
-			<a href="./privacy_policy.html">Privacy Policy</a>
-			<a href="./cookie_policy.html">Cookie Policy</a>
-			<a href="./careers.html">Careers</a>
-		</nav>
+<!-- Place Content Here -->
 
-		<!--JavaScript at end of body for optimized loading-->
-		<script type="text/javascript" src="js/materialize.min.js"></script>
 
+<!-- 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 -->
+
+		<div class="bottomNavbarWrapper">
+			<div class="bottomNavbarTop"></div>
+			<ul class="topNavigationBar bottomNavigationBar">
+				<!--"active" sets the currently selected tab-->
+				<li>
+					<a href="./connect.html">
+						<div class="bottomNavbarDiv">Connect</div>
+					</a>
+				</li>
+				<li>
+					<a href="./advertise.html">
+						<div class="bottomNavbarDiv">Advertise</div>
+					</a>
+				</li>
+				<li>
+					<a href="./terms_of_use.html">
+						<div class="bottomNavbarDiv">Terms of Use</div>
+					</a>
+				</li>
+				<li>
+					<a href="./privacy_policy.html">
+						<div class="bottomNavbarDiv">Privacy Policy</div>
+					</a>
+				</li>
+				<li>
+					<a href="./cookie_policy.html">
+						<div class="bottomNavbarDiv"></img>Cookie Policy</div>
+					</a>
+				</li>
+				<li>
+					<a href="./careers.html">
+						<div class="bottomNavbarDiv"></img>Careers</div>
+					</a>
+				</li>
+			</ul>
+		</div>
 	</body>
 </html>

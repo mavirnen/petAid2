@@ -1,0 +1,146 @@
+.topNavigationBar {
+	/* Removing default list margin */
+	margin: 0;
+
+	/* The % of the page to span the entire list */
+	width:100%;
+
+	/* Display list as a table */
+	display:table;
+
+	/* Borders of cells in table will be zero */
+	border-collapse:collapse;
+
+	/* Evenly spaced cells (Remove for propertional size)*/
+	table-layout: fixed;
+}
+
+.topNavigationBar li {
+	/* Display list elements as cells */
+	display:table-cell;
+
+	/* Placing a base margin for the navbar */
+	/* padding: 0 0 6px 0; */
+
+	/* Create a thin border between blocks */
+	border-right: 1px solid #DEDCCE;
+
+	/* The following places a box around each cell */
+	/* box-sizing:border-box; */
+	/* border:#888 1px solid; */
+}
+
+.topNavigationBar a {
+	/* Display each link in each cell as a customisable block type */
+	display:block;
+
+	/* Background colour of blocks */
+	background-color:#D3CBA6;
+
+	/* Table cells adjust as their contents does, hence padding is changed here */
+	padding: 4px 0 4px 0;
+
+	/* Aligning link text to centre */
+	text-align:center;
+
+	/* Font cosmetics */
+	/* font-size: 26px; */
+	color: #905750;
+	text-decoration: none;
+}
+
+.topNavigationBar li:last-child {
+	/* Remove any placed borders on the right most, last child */
+	border-right: none;
+}
+
+.topNavigationBar div{
+	font-family: Delicious-SmallCaps;
+}
+
+/* Change the color of links on hover */
+.topNavigationBar a:hover {
+	/* Cell colour */
+	background-color: #905750;
+
+	/* Text Colour */
+	color: #D3CBA6;
+}
+
+/* Add a color to the active/current link */
+.topNavigationBar a.active {
+	/* Cell colour */
+	background-color: #4D3F3E;
+
+	/* Text Colour */
+	color: #D3CBA6;
+}
+
+.topNavbarBase{
+	padding: 2px;
+	background-color: #4D3F3E;
+}
+
+/* 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 */
+
+.bottomNavbarWrapper{
+	position:fixed;
+	bottom: 0;
+}
+
+.bottomNavbarTop{
+	margin:0;
+	border:0;
+	position:flex;
+	padding: 2px;
+	background-color: #4D3F3E;
+}
+
+.bottomNavigationBar a {
+	padding:0;
+	background-color:#162e38;
+}
+
+.bottomNavigationBar div{
+	font-family: Delicious-SmallCaps;
+}
+
+/* Change the color of links on hover */
+.bottomNavigationBar a:hover {
+	color: #162e38
+}
+
+/* Add a color to the active/current link */
+.bottomNavigationBar a.active {
+	background-color: #4D3F3E;
+	color: #162e38
+}
+
+/* 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 */
+
+.navbarIcons{
+	/* Scale to set 512x512 icons to */
+	width: 15%;
+	/* Aligning image within div */
+	vertical-align: middle;
+	/* Separate image and text divs */
+	padding: 0 2vw 0 0;
+}
+
+.topNavbarDiv{
+	/* Align divs on one line */
+	display: inline;
+	/* Align divs within link in centre */
+	vertical-align: middle;
+	/* Set font size to be scalable with window */
+	font-size: 1.6vw;
+}
+
+.bottomNavbarDiv{
+	/* Align divs on one line */
+	display: inline;
+	/* Align divs within link in centre */
+	vertical-align: middle;
+	/* Set font size to be scalable with window */
+	font-size: 1.5vw;
+}

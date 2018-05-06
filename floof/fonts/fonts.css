@@ -1,0 +1,28 @@
+@font-face {
+  font-family: Delicious-SmallCaps;
+  src: url(Delicious-SmallCaps.otf);
+}
+
+@font-face {
+  font-family: Delicious-Roman;
+  src: url(Delicious-Roman.otf);
+}
+
+@font-face {
+  font-family: Delicious-Roman;
+  src: url(Delicious-Italic.otf);
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Delicious-Roman;
+  src: url(Delicious-Bold.otf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Delicious-Roman;
+  src: url(Delicious-BoldItalic.otf);
+  font-weight: bold;
+  font-style: italic;
+}
